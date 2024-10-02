@@ -1,3 +1,4 @@
+import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
 import { Poppins } from 'next/font/google';
 import "./globals.css";
@@ -20,9 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.variable}>
-        {children}
-      </body>
+      <ClerkProvider>
+        <body className={poppins.variable}>
+          {children}
+        </body>
+      </ClerkProvider>
     </html>
   );
 }
