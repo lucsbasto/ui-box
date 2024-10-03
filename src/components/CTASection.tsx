@@ -10,7 +10,7 @@ export function CTASection(){
         Aprimore seu fluxo de trabalho de desenvolvimento tendo acesso rápido a uma biblioteca de componentes reutilizáveis e garanta consistência em seus projetos.
       </p>
       <button className="block bg-sky-500 rounded-md px-9 py-3 text-sm font-medium text-white hover:bg-sky-600" type="button">
-        Let's Get Started!
+        Vamos Começar!
       </button>
     </div>
   )
