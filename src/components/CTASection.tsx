@@ -1,6 +1,6 @@
 export function CTASection(){
   return (
-    <div className="flex flex-col mx-16 items-center mt-[120px] gap-6">
+    <div className="flex flex-col mx-auto items-center mt-[120px] gap-6 bg-white w-[700px] h-[350px] justify-center rounded-md max-sm:mx-16 max-sm:w-auto max-sm:h-auto max-md:w-auto max-md:h-auto">
       <h2 className="font-bold text-2xl text-center">
         Gerencie e Crie Seus Componentes React
         <span className="text-sky-500"> Sem Esforço!</span>
